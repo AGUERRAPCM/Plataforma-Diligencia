@@ -1,0 +1,5 @@
+UPDATE public.usuario SET estado_usuario=0, fecha_baja = now() WHERE documento = '21574696';
+	UPDATE public.usuario SET estado_usuario=0, fecha_baja = now() WHERE documento = '44792673';
+	UPDATE public.usuario SET estado_usuario=0, fecha_baja = now() WHERE documento = '07264635';
+	UPDATE public.usuario SET estado_usuario=0, fecha_baja = now() WHERE documento = '10344953';
+	UPDATE public.usuario SET estado_usuario=0, fecha_baja = now() WHERE documento = '09867894';
