@@ -1,0 +1,212 @@
+INSERT INTO public.entidad(id_entidad,ruc_entidad, razon_social, gobierno, sector, pliego, ejecutora, estado_entidad, fecha_reg, fecha_mod) VALUES (220,' ','FUERZA AÉREA DEL PERÚ',' ','Defensa',' ',' ',1,now(),now());
+INSERT INTO public.entidad(id_entidad,ruc_entidad, razon_social, gobierno, sector, pliego, ejecutora, estado_entidad, fecha_reg, fecha_mod) VALUES (221,' ','SEDAPAL',' ','Vivienda, Construcción y Saneamiento',' ',' ',1,now(),now());
+
+INSERT INTO public.entidad(id_entidad,ruc_entidad, razon_social, gobierno, sector, pliego, ejecutora, estado_entidad, fecha_reg, fecha_mod) VALUES (223,' ','PROGRAMA NACIONAL DE CONSERVACIÓN DE BOSQUES PARA LA MITIGACIÓN DEL CAMBIO CLIMÁTICO',' ','Ambiente',' ',' ',1,now(),now());
+INSERT INTO public.entidad(id_entidad,ruc_entidad, razon_social, gobierno, sector, pliego, ejecutora, estado_entidad, fecha_reg, fecha_mod) VALUES (224,' ','GOBIERNO REGIONAL DE APURIMAC',' ','Gobiernos Regionales',' ',' ',1,now(),now());
+
+INSERT INTO public.entidad(id_entidad,ruc_entidad, razon_social, gobierno, sector, pliego, ejecutora, estado_entidad, fecha_reg, fecha_mod) VALUES (226,' ','Electrosur S.A.',' ','Energía y Minas',' ',' ',1,now(),now());
+INSERT INTO public.entidad(id_entidad,ruc_entidad, razon_social, gobierno, sector, pliego, ejecutora, estado_entidad, fecha_reg, fecha_mod) VALUES (227,' ','PROGRAMA NACIONAL DE INFRAESTRUCTURA EDUCATIVA',' ','Educación',' ',' ',1,now(),now());
+INSERT INTO public.entidad(id_entidad,ruc_entidad, razon_social, gobierno, sector, pliego, ejecutora, estado_entidad, fecha_reg, fecha_mod) VALUES (228,' ','GOBIERNO REGIONAL AMAZONAS ',' ','Gobiernos Regionales',' ',' ',1,now(),now());
+INSERT INTO public.entidad(id_entidad,ruc_entidad, razon_social, gobierno, sector, pliego, ejecutora, estado_entidad, fecha_reg, fecha_mod) VALUES (229,' ','GOBIERNO REGIONAL DE LORETO',' ','Gobiernos Regionales',' ',' ',1,now(),now());
+
+INSERT INTO public.entidad(id_entidad,ruc_entidad, razon_social, gobierno, sector, pliego, ejecutora, estado_entidad, fecha_reg, fecha_mod) VALUES (231,' ','Procuraduría General del Estado',' ','Justicia y Derechos Humanos',' ',' ',1,now(),now());
+INSERT INTO public.entidad(id_entidad,ruc_entidad, razon_social, gobierno, sector, pliego, ejecutora, estado_entidad, fecha_reg, fecha_mod) VALUES (232,' ','GOBIERNO REGIONAL DE ANCASH ',' ','Gobiernos Regionales',' ',' ',1,now(),now());
+INSERT INTO public.entidad(id_entidad,ruc_entidad, razon_social, gobierno, sector, pliego, ejecutora, estado_entidad, fecha_reg, fecha_mod) VALUES (233,' ','SERVICIOS POSTALES DEL PERU S.A.',' ','Transportes y Comunicaciones',' ',' ',1,now(),now());
+INSERT INTO public.entidad(id_entidad,ruc_entidad, razon_social, gobierno, sector, pliego, ejecutora, estado_entidad, fecha_reg, fecha_mod) VALUES (234,' ','GOBIERNO REGIONAL AYACUCHO',' ','Gobiernos Regionales',' ',' ',1,now(),now());
+
+INSERT INTO public.entidad(id_entidad,ruc_entidad, razon_social, gobierno, sector, pliego, ejecutora, estado_entidad, fecha_reg, fecha_mod) VALUES (236,' ','INACAL',' ','Producción',' ',' ',1,now(),now());
+INSERT INTO public.entidad(id_entidad,ruc_entidad, razon_social, gobierno, sector, pliego, ejecutora, estado_entidad, fecha_reg, fecha_mod) VALUES (237,' ','PROYECTO ESPECIAL SIERRA CENTRO SUR',' ','Desarrollo e Inclusión social',' ',' ',1,now(),now());
+INSERT INTO public.entidad(id_entidad,ruc_entidad, razon_social, gobierno, sector, pliego, ejecutora, estado_entidad, fecha_reg, fecha_mod) VALUES (238,' ','Fondo Intangible Solidario de Salud',' ','Salud',' ',' ',1,now(),now());
+INSERT INTO public.entidad(id_entidad,ruc_entidad, razon_social, gobierno, sector, pliego, ejecutora, estado_entidad, fecha_reg, fecha_mod) VALUES (239,' ','INSTITUTO NACIONAL DE INVESTIGACIÓN EN GLACIARES Y ECOSISTEMAS DE MONTAÑA',' ','Ambiente',' ',' ',1,now(),now());
+INSERT INTO public.entidad(id_entidad,ruc_entidad, razon_social, gobierno, sector, pliego, ejecutora, estado_entidad, fecha_reg, fecha_mod) VALUES (241,' ','PROGRAMA NACIONAL PLATAFORMAS DE ACCION PARA LA INCLUSION SOCIAL PAIS',' ','Desarrollo e Inclusión social',' ',' ',1,now(),now());
+
+
+
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (600,'Documento Nacional de Indentidad (DNI)','10308983','ROBERTO MARTIN POGGI ONETO',' ',' ','h1rzmMbk',0,1,now(),now(),'rpoggi@fap.mil.pe');	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (628,'Documento Nacional de Indentidad (DNI)','43340713','ELIZABETH MILAGROS ZORRILLA CASTRO',' ',' ','i36h3yq1',0,1,now(),now(),'ezorrilla@fap.mil.pe');	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (656,'Documento Nacional de Indentidad (DNI)','43326575','IVAN DIAZ DEL SOLAR',' ',' ','6mq5hedb',0,1,now(),now(),'idiaz@fap.mil.pe');	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (220,600,'OFICINA DE INTEGRIDAD','DIRECCIÓN DE CONTROL INTERNO E INTEGRIDAD INSTITUCIONAL',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (220,628,'OFICINA DE RECURSOS HUMANOS','JEFE DE LA OFICINA DE INSPECTORÍA DE LA DIRECCIÓN DE ADMINISTRACIÓN DE PERSONAL',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (220,656,'OFICINA DE LOGISTICA','JEFE DE LA OFICINA DE INSPECTORÍA DE LA DIRECCIÓN GENERAL DE LOGÍSTICA',1,now());
+
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (601,'Documento Nacional de Indentidad (DNI)','45103094','Julio Héctor Milla Altabás',' ',' ','MMab6erv',0,1,now(),now(),'jmillaa@sedapal.com.pe');	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (629,'Documento Nacional de Indentidad (DNI)','09276384','Hugo Orellana Salinas',' ',' ','f5rtMmkr',0,1,now(),now(),'horellan@sedapal.com.pe');	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (657,'Documento Nacional de Indentidad (DNI)','09273312','Juan Carlos Chipoco Toledo',' ',' ','d3rdqhz1',0,1,now(),now(),'jchipocot@sedapal.com.pe');	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (221,601,'OFICINA DE INTEGRIDAD','Jefe de Equipo Cumplimiento Normativo e Integridad Institucional',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (221,629,'OFICINA DE RECURSOS HUMANOS','Gerente de Recursos Humanos',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (221,657,'OFICINA DE LOGISTICA','Gerente de Logística y Servicios',1,now());
+
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (603,'Documento Nacional de Indentidad (DNI)','42316061','HUACHACA REYES FRANK RICKY',' ',' ','merbiqeb',0,1,now(),now(),'fhuachaca@bosques.gob.pe');	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (659,'Documento Nacional de Indentidad (DNI)','07265468','CLAUDIA ELIZABETH BARDALES CRUZ',' ',' ','bmiqabtv',0,1,now(),now(),'cbardales@bosques.gob.pe');	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (223,603,'OFICINA DE INTEGRIDAD','JEFE (E) DE LA SUBUNIDAD DE RECURSOS HUMANOS Y COMUNICACIONES',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (223,603,'OFICINA DE RECURSOS HUMANOS','JEFE (E) DE LA SUBUNIDAD DE RECURSOS HUMANOS Y COMUNICACIONES',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (223,659,'OFICINA DE LOGISTICA','JEFE (E) DE LA SUBUNIDAD DE ABASTECIMIENTO Y TECNOLOGÍAS DE LA INFORMACIÓN',1,now());
+
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (604,'Documento Nacional de Indentidad (DNI)','31038246','WILFREDO CABALLERO TAYPE',' ',' ','4q4ctb7q',0,1,now(),now(),'administracion@regionapurimac.gob.pe');	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (632,'Documento Nacional de Indentidad (DNI)','10284383','SIMIONA CABALLERO UTANI',' ',' ','xbry66mw',0,1,now(),now(),'scaballerou@gmail.com');	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (660,'Documento Nacional de Indentidad (DNI)','41178048','YENI PEREZ CCASA',' ',' ','qbhcdb74',0,1,now(),now(),'yeni410@hotmail.com');	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (224,604,'OFICINA DE INTEGRIDAD','DIRECTOR REGIONAL DE ADMINISTRACION',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (224,632,'OFICINA DE RECURSOS HUMANOS','DIRECTORA DE LA OFICNA DE RECURSOS HUMANOS',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (224,660,'OFICINA DE LOGISTICA','DIRECTORA DE LA OFICINA DE ABASTECIMIENTO, PATRIMONIO Y MARGESI DE BIENES',1,now());
+
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (606,'Documento Nacional de Indentidad (DNI)','00432386','Hilda Manchego Cerpa',' ',' ','mimdmtqb',0,1,now(),now(),'hmanchego@electrosur.com.pe');	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (634,'Documento Nacional de Indentidad (DNI)','04431171','Isidro Pimentel Huisa',' ',' ','itacycd5',0,1,now(),now(),'ipimentel@electrosur.com.pe');	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (662,'Documento Nacional de Indentidad (DNI)','00512195','Maria Alicia Flores Lanchipa',' ',' ','hftm1w4v',0,1,now(),now(),'mflores@electrosur.com.pe');	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (226,606,'OFICINA DE INTEGRIDAD','Jefa de la Oficina de Cumplimiento Normativo',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (226,634,'OFICINA DE RECURSOS HUMANOS','Jefe Dpto. de Gestión Humana',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (226,662,'OFICINA DE LOGISTICA','Jefa Dpto. de Logística',1,now());
+
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (607,'Documento Nacional de Indentidad (DNI)','43219589','Joseph Edgard Silva Plasencia',' ',' ','r37bzxy4',0,1,now(),now(),'josilva@pronied.gob.pe');	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (635,'Documento Nacional de Indentidad (DNI)','06251011','Patricia Micaela Ferre Castro',' ',' ','yq3d53bv',0,1,now(),now(),'pferre@pronied.gob.pe');	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (663,'Documento Nacional de Indentidad (DNI)','42645401','Luisa Liliana Lizarraga Luy',' ',' ','cbyxmh1f',0,1,now(),now(),'llizarraga@pronied.gob.pe');	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (227,607,'OFICINA DE INTEGRIDAD','Director (e) de la Unidad de Recursos Humanos',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (227,635,'OFICINA DE RECURSOS HUMANOS','Especialista legal laboral',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (227,663,'OFICINA DE LOGISTICA','Especialista III de coordinación contractual',1,now());
+
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (608,'Documento Nacional de Indentidad (DNI)','42452584','OSCAR ANTONIO DIAZ JULON ',' ',' ','c7bcqrxt',0,1,now(),now(),'odiazjulon@gmail.com');	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (636,'Documento Nacional de Indentidad (DNI)','33406272','PEDRO PABLO REINA ZEGARRA',' ',' ','xbkqd65a',0,1,now(),now(),'ppablorg@hotmail.com');	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (664,'Documento Nacional de Indentidad (DNI)','41232489','JORGE CESAR CASTRO VARGAS ',' ',' ','emxdv3Mk',0,1,now(),now(),'jorgecastro570@hotmail.com');	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (228,608,'OFICINA DE INTEGRIDAD','SECRETARIO GENERAL ',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (228,636,'OFICINA DE RECURSOS HUMANOS','OFICIO DE RECURSOS HUMANOS ',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (228,664,'OFICINA DE LOGISTICA','RESPONASABLE DE TRANSFERENCIA Y RENDICON DE CUENTAS - OFICINA DE ABASTECIMIENTO Y PATRIMONIO ',1,now());
+
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (609,'Documento Nacional de Indentidad (DNI)','40865497','TEDDY MANUEL RENGIFO SOTO',' ',' ','5iixhm7b',0,1,now(),now(),'TEDDY-RENSO@HOTMAIL.COM');	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (637,'Documento Nacional de Indentidad (DNI)','05260841','SOCORRO VASQUEZ SILVA',' ',' ','tbyc5vMx',0,1,now(),now(),'SOCORRO-SVS-10@HOTMAIL.COM');	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (665,'Documento Nacional de Indentidad (DNI)','40156260','JORGE ALBERTO PEREZ REATEGUI',' ',' ','h54xMefq',0,1,now(),now(),'JORGEPEREZREATEGUI@GMAIL.COM');	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (229,609,'OFICINA DE INTEGRIDAD','ASESOR LEGAL DE LA GERENCIA DE RECURSOS HUMANOS',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (229,637,'OFICINA DE RECURSOS HUMANOS','(e) ÁREA DE COORDINACIÓN INTERNA DE ADMINISTRACION DE PERSONASL Y CAPACITACION',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (229,665,'OFICINA DE LOGISTICA','CONTADOR  - AUDITOR',1,now());
+
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (611,'Documento Nacional de Indentidad (DNI)','06857233','Josoé Marchán Taquire',' ',' ','aeawkahv',0,1,now(),now(),'jmarchan@pge.gob.pe');	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (639,'Documento Nacional de Indentidad (DNI)','45879981','Andrés Miguel Palacios Costa',' ',' ','hb5tz7tM',0,1,now(),now(),'apalacios@pge.gob.pe');	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (667,'Documento Nacional de Indentidad (DNI)','41655702','Joaquin Enrique Huanacune Vargas',' ',' ','bykraMMb',0,1,now(),now(),'jhuanacune@pge.gob.pe');	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (231,611,'OFICINA DE INTEGRIDAD','Coordinador de la Unidad Funcional de Integridad Institucional',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (231,639,'OFICINA DE RECURSOS HUMANOS','Experto de Recursos Humanos',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (231,667,'OFICINA DE LOGISTICA','Asesor de la Oficina de Administración',1,now());
+
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (612,'Documento Nacional de Indentidad (DNI)','31680494','RUDY RAUL ROBLES CHAVEZ',' ',' ','bxibdx37',0,1,now(),now(),'rroblesc@regionancash.gob.pe');	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (640,'Documento Nacional de Indentidad (DNI)','44897397','SONIA LILIANA MENDOZA LEÓN',' ',' ','tzq7rxic',0,1,now(),now(),'lilian2208@hotmail.com');	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (668,'Documento Nacional de Indentidad (DNI)','42782632','PAOLA GIOVANA GONZALES GARCÍA',' ',' ','qkm6zkbk',0,1,now(),now(),'giopa_@hotmail.com');	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (232,612,'OFICINA DE INTEGRIDAD','SUBGERENTE DE RECURSOS HUMANOS',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (232,640,'OFICINA DE RECURSOS HUMANOS','ESPECIALISTA PROFESIONAL 1',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (232,668,'OFICINA DE LOGISTICA','ESPECIALISTA PROFESIONAL 1',1,now());
+
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (613,'Documento Nacional de Indentidad (DNI)','40263941','JHANNY EMMY HUERTSS HERNANDEZ',' ',' ','qc1aq154',0,1,now(),now(),'jhuertas@serpost.com.pe');	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (641,'Documento Nacional de Indentidad (DNI)','40718485','MIGUEL STUARD REQUEJO NAPAN',' ',' ','he6ravxM',0,1,now(),now(),'mrequejo@serpost.com.pe');	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (669,'Documento Nacional de Indentidad (DNI)','15844127','CECILIA YANET CUYA HUERTAS',' ',' ','r153mmm4',0,1,now(),now(),'ccuya@serpost.com.pe');	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (233,613,'OFICINA DE INTEGRIDAD','ANALISTA DE CUMPLIMIENTO',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (233,641,'OFICINA DE RECURSOS HUMANOS','Sub Gerente de Recursos Humanos (encargado)',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (233,669,'OFICINA DE LOGISTICA','Jefe Departamento de Abastecimiento',1,now());
+
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (614,'Documento Nacional de Indentidad (DNI)','70118092','Luis Vicente Riccio Diaz',' ',' ','13xqMdya',0,1,now(),now(),'riccio.diaz@gmail.com');	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (642,'Documento Nacional de Indentidad (DNI)','42467030','Laura Felipina Llallahui Huamani',' ',' ','d5Mwabdb',0,1,now(),now(),'lau200382@hotmail.com');	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (670,'Documento Nacional de Indentidad (DNI)','22249014','Elsa Victoria Anicama Ormeño',' ',' ','bk45ae7z',0,1,now(),now(),'evanicama@hotmail.com');	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (234,614,'OFICINA DE INTEGRIDAD','Analista Técnico Legal',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (234,642,'OFICINA DE RECURSOS HUMANOS','Asistente de Remuneraciones y Contrataciones',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (234,670,'OFICINA DE LOGISTICA','Contador IV - Especialista Administrativo',1,now());
+	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (644,'Documento Nacional de Indentidad (DNI)','25720501','John Martin Santa Gadea Guerrero',' ',' ','rzbb1i11',0,1,now(),now(),'jsantagadea@inacal.gob.pe');	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (672,'Documento Nacional de Indentidad (DNI)','40337236','Rusberth Palacios Lizano',' ',' ','tcbr4izm',0,1,now(),now(),'rpalaciosl@inacal.gob.pe');	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (236,644,'OFICINA DE RECURSOS HUMANOS','Responsable del Equipo Funcional de Recursos Humanos ',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (236,672,'OFICINA DE LOGISTICA','Responsable del Equipo Funcional de Abastecimiento ',1,now());
+
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (617,'Documento Nacional de Indentidad (DNI)','28286281','Alejo Enciso Neil Walter',' ',' ','izq11Mwk',0,1,now(),now(),'nalejo@pescs.gob.pe');	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (645,'Documento Nacional de Indentidad (DNI)','40153075','Uribe Tapahuasco, Carmen Liliana',' ',' ','x4kwimbt',0,1,now(),now(),'curibe@pescs.gob.pe');	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (673,'Documento Nacional de Indentidad (DNI)','08292406','Alarcón Núñez, Víctor Reonil',' ',' ','eMcdaMwm',0,1,now(),now(),'Reonil_alarcon@hotmail.com');	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (237,617,'OFICINA DE INTEGRIDAD','Director de la Oficina de Programación, Presupuesto y Seguimiento de PESCS',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (237,645,'OFICINA DE RECURSOS HUMANOS','Área de Personal/Especialista ',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (237,673,'OFICINA DE LOGISTICA','Área de Abastecimiento/Especialista',1,now());
+
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (618,'Documento Nacional de Indentidad (DNI)','43198338','JESUS LEONEL BARRERA EYZAGUIRRE ',' ',' ','c1r4ykrc',0,1,now(),now(),'jbarrera@fissal.gob.pe');	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (674,'Documento Nacional de Indentidad (DNI)','43556909','MIGUEL ANGEL VEGA CARRERA ',' ',' ','db3z5vM7',0,1,now(),now(),'mvega@fissal.gob.pe');	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (238,618,'OFICINA DE INTEGRIDAD','Oficial de integridad institucional',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (238,618,'OFICINA DE RECURSOS HUMANOS','COORDINADOR DE RECURSOS HUMANOS',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (238,674,'OFICINA DE LOGISTICA','COORDINADOR DE ABASTECIMIENTO, PATRIMONIO Y ALMACÉN',1,now());
+
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (619,'Documento Nacional de Indentidad (DNI)','10348613','Guillermo Arturo Rojas Gutierrez',' ',' ','q3r3aMiw',0,1,now(),now(),'grojas@inaigem.gob.pe');	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (647,'Documento Nacional de Indentidad (DNI)','45333022','Samuel Rendón Vilca',' ',' ','b5rMwqi4',0,1,now(),now(),'srendon@inaigem.gob.pe');	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (675,'Documento Nacional de Indentidad (DNI)','44796727','Carlos Enrique Tasaico García',' ',' ','thMh3qwb',0,1,now(),now(),'ctasaico@inaigem.gob.pe');	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (239,619,'OFICINA DE INTEGRIDAD','Gerente General',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (239,647,'OFICINA DE RECURSOS HUMANOS','Especialista Responsable de Recursos Humanos',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (239,675,'OFICINA DE LOGISTICA','Especialista Responsable de Logística encargado',1,now());
+
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (621,'Documento Nacional de Indentidad (DNI)','10587584','RAMON OMAR OSTERLOH CUETO',' ',' ','mfciM7hx',0,1,now(),now(),'rosterloh@pais.gob.pe');	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (677,'Documento Nacional de Indentidad (DNI)','45477314','FRANCO ALONSO ALVITES REYES',' ',' ','51efcaet',0,1,now(),now(),'falvites@pais.gob.pe');	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (241,621,'OFICINA DE INTEGRIDAD','OFICIAL DE INTEGRIDAD',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (241,621,'OFICINA DE RECURSOS HUMANOS','EJECUTIVO DE LA UNIDAD DE RECURSOS HUMANOS',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (241,677,'OFICINA DE LOGISTICA','ESPECIALISTA EN CONTRATACIONES',1,now());
+	
+	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (624,'Documento Nacional de Indentidad (DNI)','10453555','MARIA MARTINE SILVA NAVARRO',' ',' ','abc12qwe',0,1,now(),now(),'msilvan@indecopi.gob.pe');		
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (86,624,'OFICINA DE INTEGRIDAD','JEFA (E) DE LA UNIDAD DE INTEGRIDAD INSTITUCIONAL',1,now());	
+	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (653,'Documento Nacional de Indentidad (DNI)','46056922','Roxana del Pilar Vega Fernández',' ',' ','rxcxc6e7',0,1,now(),now(),'rovega@midagri.gob.pe');	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (21,653,'OFICINA DE RECURSOS HUMANOS','Directora de la Oficina de Desarrollo del Talento Humano',1,now());	
+
+	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (654,'Documento Nacional de Indentidad (DNI)','44270560','Marjorie Rommy Martinez Ghiggo',' ',' ','f74krekd',0,1,now(),now(),'mmartinezg@migraciones.gob.pe');	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (68,654,'OFICINA DE RECURSOS HUMANOS','Jefe de la Unidad II de la Unidad de Administración de Personal',1,now());	
+
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (627,'Documento Nacional de Indentidad (DNI)','46559295','MILAGROS MARIBEL GUERRA QUINTANA',' ',' ','qwerty06',0,1,now(),now(),'mguerraq@minsa.gob.pe');	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (109,627,'OFICINA DE INTEGRIDAD','ANALISTA SAIP',1,now());	
+
+
+
+
+
+/* NO REGISTRADOS**/
+/** Problema con DNI*/
+INSERT INTO public.entidad(id_entidad,ruc_entidad, razon_social, gobierno, sector, pliego, ejecutora, estado_entidad, fecha_reg, fecha_mod) VALUES (222,' ','Gobierno Regional de Moquegua',' ','Gobiernos Regionales',' ',' ',1,now(),now());
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (602,'Documento Nacional de Indentidad (DNI)','08698084','Amador Jeri Muñoz',' ',' ','ewdiMava',0,1,now(),now(),'ajeri@regionmoquegua.gob.pe');	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (630,'Documento Nacional de Indentidad (DNI)','4637948','Ayda Paulina Pfocoalata Ancalla ',' ',' ','1ccqz143',0,1,now(),now(),'apfoccoalata@regionmoquegua.gob.pe');	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (658,'Documento Nacional de Indentidad (DNI)','29402197','Cesar Hunaca Ayna',' ',' ','c3b6xf6b',0,1,now(),now(),'C.huanca.a@gmail.com');	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (222,602,'OFICINA DE INTEGRIDAD','Gerente General Regional',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (222,630,'OFICINA DE RECURSOS HUMANOS','Jefa de la Oficina de Recursos Humanos',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (222,658,'OFICINA DE LOGISTICA','Jefe de la Oficina de Logística y Servicios Generales',1,now());
+
+/* TRIPLE USUARIO**/
+INSERT INTO public.entidad(id_entidad,ruc_entidad, razon_social, gobierno, sector, pliego, ejecutora, estado_entidad, fecha_reg, fecha_mod) VALUES (225,' ','HOSPITAL NACIONAL SERGIO E. BERNALES',' ','Salud',' ',' ',1,now(),now());
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (605,'Documento Nacional de Indentidad (DNI)','6145502','JONATAN BERNABE MUÑOZ CASANA',' ',' ','ydctbm5k',0,1,now(),now(),'personal@hnseb.gob.pe');	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (633,'Documento Nacional de Indentidad (DNI)','6145502','JONATAN BERNABE MUÑOZ CASANA',' ',' ','ziaceirf',0,1,now(),now(),'personal@hnseb.gob.pe');	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (661,'Documento Nacional de Indentidad (DNI)','6145502','JONATAN BERNABE MUÑOZ CASANA',' ',' ','vMhhfh73',0,1,now(),now(),'personal@hnseb.gob.pe');	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (225,605,'OFICINA DE INTEGRIDAD','JEFE DE RECURSOS HUMANOS',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (225,633,'OFICINA DE RECURSOS HUMANOS','JEFE DE LA OFICINA DE RECURSOS HUMANOS',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (225,661,'OFICINA DE LOGISTICA','JEFE DE LA OFICINA DE RECURSOS HUMANOS',1,now());
+
+/* DNI no es suficiente agregar 0*/
+INSERT INTO public.entidad(id_entidad,ruc_entidad, razon_social, gobierno, sector, pliego, ejecutora, estado_entidad, fecha_reg, fecha_mod) VALUES (230,' ','PROGRAMA NACIONAL DE INVESTIGACIÓN CIENTÍFICA Y ESTUDIOS AVANZADOS - PROCIENCIA',' ','Presidencia del Consejo de Ministros',' ',' ',1,now(),now());
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (610,'Documento Nacional de Indentidad (DNI)','10470381','LUIS ALFREDO YORI ROJAS',' ',' ','miwkqwzz',0,1,now(),now(),'lyori@prociencia.gob.pe');	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (638,'Documento Nacional de Indentidad (DNI)','43586846','Vanessa Antonia Yupanqui Ramos ',' ',' ','x7ewazbm',0,1,now(),now(),'vyupanqui@prociencia.gob.pe');	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (666,'Documento Nacional de Indentidad (DNI)','4227748','Guillermo Jonathan Velásquez Ramos ',' ',' ','zixyazzy',0,1,now(),now(),'gvelasquez@prociencia.gob.pe');	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (230,610,'OFICINA DE INTEGRIDAD','Consultor- Responsable de la implementación del SCI',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (230,638,'OFICINA DE RECURSOS HUMANOS','Analista en Recursos Humanos ',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (230,666,'OFICINA DE LOGISTICA','Analista en contrataciones menores o iguales a 8 UIT ',1,now());
+
+/* DNI REPETIDO*/
+INSERT INTO public.entidad(id_entidad,ruc_entidad, razon_social, gobierno, sector, pliego, ejecutora, estado_entidad, fecha_reg, fecha_mod) VALUES (235,' ','Empresa regional de Servicio Público de Electricidad de Puno S.A.A. Electro Puno S.A.A.',' ','Energía y Minas',' ',' ',1,now(),now());
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (615,'Documento Nacional de Indentidad (DNI)','23848084','LUZGARDA LUZA PEZO',' ',' ','xvyrkebr',0,1,now(),now(),'lluza@electropuno.com.pe');	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (643,'Documento Nacional de Indentidad (DNI)','1211456','YUBER PEDRO TORRES ROMERO',' ',' ','xfqqytda',0,1,now(),now(),'ytorres@electropuno.com.pe');	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (671,'Documento Nacional de Indentidad (DNI)','23848084','ELVIS MENDOZA CCOPA',' ',' ','i4izh7af',0,1,now(),now(),'emendoza@electropuno.com.pe');	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (235,615,'OFICINA DE INTEGRIDAD','RESPONSABLE DE LA OFICINA DE IMAGEN INSTITUCIONAL',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (235,643,'OFICINA DE RECURSOS HUMANOS','JEFE DE LA DIVIVISON DE GESTION DEL TALENTO HUMANO',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (235,671,'OFICINA DE LOGISTICA','JEFE DE LA DIVISION DE LOGISTICA',1,now());
+
+/* JEFE INTEGRIDAD REPETIDO*/
+INSERT INTO public.entidad(id_entidad,ruc_entidad, razon_social, gobierno, sector, pliego, ejecutora, estado_entidad, fecha_reg, fecha_mod) VALUES (240,'GOBIERNO REGIONAL DE CAJAMARCA',' ','Gobiernos Regionales',' ',' ',1,now(),now());
+INSERT INTO public.entidad(id_entidad,ruc_entidad, razon_social, gobierno, sector, pliego, ejecutora, estado_entidad, fecha_reg, fecha_mod) VALUES (242,'GOBIERNO REGIONAL CAJAMARCA',' ','Gobiernos Regionales',' ',' ',1,now(),now());
+
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (620,'Documento Nacional de Indentidad (DNI)','08897982','Leoncio Moreano Echevarria',' ',' ','M1i7xarv',0,1,now(),now(),'lmoreano@regioncajamarca.gob.pe');	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (648,'Documento Nacional de Indentidad (DNI)','07638665','Carmen Piedra Flores',' ',' ','kycyk3rM',0,1,now(),now(),'cpiedra@regioncajamarca.gob.pe');	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (676,'Documento Nacional de Indentidad (DNI)','40564483','César Augusto CALLIRGOS ASCENCIO',' ',' ','vbb73qba',0,1,now(),now(),'ccallirgos@regioncajamarca.gob.pe');	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (240,620,'OFICINA DE INTEGRIDAD','Gerente General Regional',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (240,648,'OFICINA DE RECURSOS HUMANOS','Directora de Personal',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (240,676,'OFICINA DE LOGISTICA','Técnico Logístico',1,now());
+
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (622,'Documento Nacional de Indentidad (DNI)','8897982','LEONCIO MOREANO ECHEVERRIA',' ',' ','ykxwkM5z',0,1,now(),now(),'lmoreano@regioncajamarca.gob.pe');	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (650,'Documento Nacional de Indentidad (DNI)','07638665','CARMEN PIEDRA FLORES',' ',' ','kqwz74zb',0,1,now(),now(),'cpiedra@regioncajamarca.gob.pe');	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (678,'Documento Nacional de Indentidad (DNI)','16802063','CECILIA JEANETTE TORRES LIMO',' ',' ','h4bhmwct',0,1,now(),now(),'ctorres@regioncajamarca.gob.pe');	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (242,622,'OFICINA DE INTEGRIDAD','GERENTE GENERAL REGIONAL',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (242,650,'OFICINA DE RECURSOS HUMANOS','DIRECTORA',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (242,678,'OFICINA DE LOGISTICA','DIRECTORA DE ABASTECIMIENTOS',1,now());
+
+
