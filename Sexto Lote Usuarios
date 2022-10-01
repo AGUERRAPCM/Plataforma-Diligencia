@@ -1,0 +1,23 @@
+INSERT INTO public.entidad(id_entidad,ruc_entidad, razon_social, gobierno, sector, pliego, ejecutora, estado_entidad, fecha_reg, fecha_mod) VALUES (177,' ','ELECTRONOROESTE S.A.',' ','Energía y Minas',' ',' ',1,now(),now());
+INSERT INTO public.entidad(id_entidad,ruc_entidad, razon_social, gobierno, sector, pliego, ejecutora, estado_entidad, fecha_reg, fecha_mod) VALUES (185,' ','Empresa Regional de Servicio Público de Electricidad del Norte S.A.- ELECTRONORTE S.A.',' ','Energía y Minas',' ',' ',1,now(),now());
+
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (512,'Documento Nacional de Identidad (DNI)','29597555','Ninovska Ruth Tejada Figueroa',' ',' ','XAv6erkx',0,1,now(),now(),'ntejadaf@distriluz.com.pe');		
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (554,'Documento Nacional de Identidad (DNI)','16758689','Karla Noedith Silva Fernández',' ',' ','zqdjzxev',0,1,now(),now(),'ksilvaf@distriluz.com.pe');		
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (598,'Documento Nacional de Identidad (DNI)','02811076','Marina Del Socorro Namuche Febres',' ',' ','yvqbik43',0,1,now(),now(),'mnamuchef@distriluz.com.pe');		
+INSERT INTO public.usuario_entidad(id_entidad,id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (177,512,'OFICINA DE INTEGRIDAD','Oficial de Cumplimiento',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad,id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (177,554,'OFICINA DE RECURSOS HUMANOS','Jefe de Gestión de Personas',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad,id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (177,598,'OFICINA DE LOGISTICA','Jefe de Logística',1,now());
+
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (477,'Documento Nacional de Identidad (DNI)','29597555','Ninovska Ruth Tejada Figueroa',' ',' ','CFdxwhc4',0,1,now(),now(),'ntejadaf@distriluz.com.pe');		
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (519,'Documento Nacional de Identidad (DNI)','40780128','Jose Carlos Vera Cerna',' ',' ','cbzvyjlw',0,1,now(),now(),'jverac@distriluz.com.pe');		
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (562,'Documento Nacional de Identidad (DNI)','45379664','Franco Felipe Castillo Querebalu',' ',' ','yitze415',0,1,now(),now(),'fcastilloq@distriluz.com.pe');		
+INSERT INTO public.usuario_entidad(id_entidad,id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (185,477,'OFICINA DE INTEGRIDAD','Oficial de Cumplimiento',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad,id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (185,519,'OFICINA DE RECURSOS HUMANOS','Jefe de Recursos Humanos',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad,id_usuario, dependencia, cargo, estado_ue, fecha_reg) VALUES (185,562,'OFICINA DE LOGISTICA','Jefe de Logística',1,now());
+
+
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (686,'Documento Nacional de Identidad (DNI)','29597555','Ninovska Ruth Tejada Figueroa',' ',' ','FXGHG6wW',0,1,now(),now(),'ntejadaf@distriluz.com.pe');	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg)VALUES (250,686,'OFICINA DE INTEGRIDAD','Oficial de Cumplimiento',1,now());	
+
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario, fecha_reg, fecha_mod, correo) VALUES (694,'Documento Nacional de Identidad (DNI)','29597555','Ninovska Ruth Tejada Figueroa',' ',' ','3FF6455K',0,1,now(),now(),'ntejadaf@distriluz.com.pe');	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg)VALUES (197,694,'OFICINA DE INTEGRIDAD','Oficial de Cumplimiento',1,now());	
