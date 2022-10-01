@@ -1,0 +1,30 @@
+	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario,fecha_reg,fecha_mod, correo) VALUES (760,'Documento Nacional de Indentidad (DNI)','8638158','Víctor Renato Reyes Luque',' ',' ','P6amq6md',0,1,now(),now(),'victorenato32@gmail.com');	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg)VALUES (247,760,'OFICINA DE INTEGRIDAD','Asesor Juridico',1,now());	
+
+INSERT INTO public.entidad(id_entidad, razon_social, sector, estado_entidad, fecha_reg) VALUES (270,'Seguro Social de Salud - EsSalud Red Asistencial Ica','Trabajo y Promoción del Empleo',1,now());	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario,fecha_reg,fecha_mod, correo) VALUES (766,'Documento Nacional de Indentidad (DNI)','21552612','Flor Elena Ramos Euribe',' ',' ','PPt415Pm',0,1,now(),now(),'elena.ramos@essalud.gob.pe');	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario,fecha_reg,fecha_mod, correo) VALUES (771,'Documento Nacional de Indentidad (DNI)','21430349','Nidia Consuelo León Cardenas',' ',' ','f6x4WxU6',0,1,now(),now(),'nidia.leon@essalud.gob.pe');	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg)VALUES (270,766,'OFICINA DE RECURSOS HUMANOS','profesional',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg)VALUES (270,771,'OFICINA DE LOGISTICA','Analista de compras',1,now());
+	
+
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario,fecha_reg,fecha_mod, correo) VALUES (762,'Documento Nacional de Indentidad (DNI)','15940280','Neri Manrique Leon',' ',' ','ewBR6hzx',0,1,now(),now(),'nmanrique@cenfotur.edu.pe');	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario,fecha_reg,fecha_mod, correo) VALUES (772,'Documento Nacional de Indentidad (DNI)','40390717','Enrique Felipe Salamanca Soria',' ',' ','Bm7cABUk',0,1,now(),now(),'esalamanca@cenfotur.edu.pe');	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg)VALUES (7,762,'OFICINA DE INTEGRIDAD','Gerente General',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg)VALUES (7,772,'OFICINA DE LOGISTICA','Jefe',1,now());
+
+INSERT INTO public.entidad(id_entidad, razon_social, sector, estado_entidad, fecha_reg) VALUES (271,'MUNICIPALIDAD DISTRITAL DE TARAY','Gobiernos Locales',1,now());	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario,fecha_reg,fecha_mod, correo) VALUES (763,'Documento Nacional de Indentidad (DNI)','23990647','Irene Nuñez Zamalloa',' ',' ','zvt5Wm31',0,1,now(),now(),'municipio.taray@gmail.com');	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario,fecha_reg,fecha_mod, correo) VALUES (773,'Documento Nacional de Indentidad (DNI)','23992035','Rosendo Castillo Vizarreta',' ',' ','Bxh7tRAe',0,1,now(),now(),'rosacruces2012@hotmail.com');	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg)VALUES (271,763,'OFICINA DE INTEGRIDAD','Jefe Oficina de Recursos Humanos',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg)VALUES (271,763,'OFICINA DE RECURSOS HUMANOS','Jefe de  la Oficina de Recursos Humanos',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg)VALUES (271,773,'OFICINA DE LOGISTICA','Jefe de la Oficina de Logistica',1,now());
+
+INSERT INTO public.entidad(id_entidad, razon_social, sector, estado_entidad, fecha_reg) VALUES (272,'- COMISION DE PROMOCION DEL PERU PARA LA EXPORTACION Y EL TURISMO - PROMPERU','Comercio Exterior y Turismo',1,now());	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario,fecha_reg,fecha_mod, correo) VALUES (764,'Documento Nacional de Indentidad (DNI)','09854380','JUAN CARLOS MARTIN  ZUÑIGA GOYZUETA',' ',' ','6B4AhD5A',0,1,now(),now(),'jzuniga@promperu.gob.pe');	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario,fecha_reg,fecha_mod, correo) VALUES (769,'Documento Nacional de Indentidad (DNI)','21286512','DELCY GABI PRETEL PALOMINO',' ',' ','hAhfD46m',0,1,now(),now(),'dpretel@promperu.gob.pe');	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido,seg_apellido,nombres, password, tipo_usuario, estado_usuario,fecha_reg,fecha_mod, correo) VALUES (774,'Documento Nacional de Indentidad (DNI)','72483384','CARLOS ANTONIO PARRA CABALLERO',' ',' ','qe6RA6fh',0,1,now(),now(),'cparra@promperu.gob.pe');	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg)VALUES (272,764,'OFICINA DE INTEGRIDAD','Especialista en Seleccion II',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg)VALUES (272,769,'OFICINA DE RECURSOS HUMANOS','Jefe de la Oficina de Recursos Humanos',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg)VALUES (272,774,'OFICINA DE LOGISTICA','Especialista en Contrataciones I',1,now());
