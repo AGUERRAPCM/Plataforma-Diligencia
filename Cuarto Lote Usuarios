@@ -1,0 +1,15 @@
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido, password, tipo_usuario, estado_usuario, fecha_reg, correo) VALUES (735,'Documento Nacional de Indentidad (DNI)','45941580','JUAN ANTONIO DELGADO HUAUYA','kaqqby7v',0,1,now(),'jdelgado@indecopi.gob.pe');	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg)VALUES (86,735,'OFICINA DE RECURSOS HUMANOS','Coordinador de Relaciones Humanas y Sociales',1,now());	
+
+
+INSERT INTO public.entidad(id_entidad, razon_social, sector, estado_entidad, fecha_reg) VALUES (253,'Comisión para el Desarrollo y Vida sin Drogas','Presidencia del Consejo de Ministros',1,now());	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido, password, tipo_usuario, estado_usuario, fecha_reg, correo) VALUES (733,'Documento Nacional de Indentidad (DNI)','43456382','Leandro Sergei Rudas Ticse','df5P7zb6',0,1,now(),'lrudas@devida.gob.pe');	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido, password, tipo_usuario, estado_usuario, fecha_reg, correo) VALUES (736,'Documento Nacional de Indentidad (DNI)','10181195','Ofelia Maribel Arribasplata Bautista','Ucy4ek7k',0,1,now(),'oarribasplata@devida.gob.pe');	
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido, password, tipo_usuario, estado_usuario, fecha_reg, correo) VALUES (739,'Documento Nacional de Indentidad (DNI)','40688780','Walter Wilfredo Gamboa Vilchez','fWxWqmdy',0,1,now(),'995818937');	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg)VALUES (253,733,'OFICINA DE INTEGRIDAD','Especialista en Gestión del Empleo y Planificación de Políticas de Recursos Humanos',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg)VALUES (253,736,'OFICINA DE RECURSOS HUMANOS','Especialista en Selección de Personal',1,now());	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg)VALUES (253,739,'OFICINA DE LOGISTICA','Especialista en Procedimiento de Selección y Acuerdo Marco',1,now());
+
+
+INSERT INTO public.usuario(id_usuario, tipo_doc, documento, pri_apellido, password, tipo_usuario, estado_usuario, fecha_reg, correo) VALUES (734,'Documento Nacional de Indentidad (DNI)','07245191','Juan Antonio Arbañil Villar','ykR3we6A',0,1,now(),'jarbanil@vivienda.gob.pe');	
+INSERT INTO public.usuario_entidad(id_entidad, id_usuario, dependencia, cargo, estado_ue, fecha_reg)VALUES (186,734,'OFICINA DE INTEGRIDAD','Coordinador de Integridad',1,now());	
